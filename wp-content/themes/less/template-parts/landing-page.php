@@ -60,6 +60,8 @@
 <!-- body sections -->
 		<?php if (have_rows('body_section')): ?>
 		<?php while (have_rows('body_section')): the_row(); ?>
+
+
 		<?php if (get_row_layout() == 'section-features'): ?>
 		<?php get_template_part('template-parts/layout/' . get_row_layout()) ?>
 		<?php endif; ?>
@@ -79,15 +81,28 @@
 		<?php endwhile; ?>
 		<?php endif; ?>
 
-		<?php if (have_rows('card-section')): ?>
-		<?php while (have_rows('card-section')): the_row(); ?>
-		<?php if (get_row_layout() == 'services-section'): ?>
-		<?php get_template_part('template-parts/layout/services/' . get_row_layout()) ?>
+<!--- End of Sections --->
 
 
-		<?php endif; ?>
-		<?php endwhile; ?>
-		<?php endif; ?>
+
+
+<?php if (have_rows('card-section')): ?>
+<?php while (have_rows('card-section')): the_row(); ?>
+
+
+<?php if (get_row_layout() == 'services-section'): ?>
+<?php get_template_part('template-parts/layout/' . get_row_layout()) ?>
+<?php endif; ?>
+
+<?php if (get_row_layout() == 'services-section-two'): ?>
+<?php get_template_part('template-parts/layout/' . get_row_layout()) ?>
+<?php endif; ?>
+
+<?php endwhile; ?>
+<?php endif; ?>
+
+
+
 
 	</section>
 
