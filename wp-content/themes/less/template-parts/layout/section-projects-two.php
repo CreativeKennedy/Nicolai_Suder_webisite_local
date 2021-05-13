@@ -1,6 +1,8 @@
-    <!-- Start Bootstrap -->
+<section>
 
-    <div class="container-fluid pl-0 pr-0 ">
+
+
+    <!-- Start Bootstrap -->
       <div class="row pl-0 pr-0">
         <div class="col-6 col-xs-12 pl-0 pr-0">
 
@@ -17,5 +19,5 @@
 
         </div>
       </div>
-    </div>
     <!-- End Bootstrap -->
+</section>

@@ -1,7 +1,6 @@
 <section>
   <!-- Start Bootstrap -->
 
-  <div class="container-fluid pl-0 pr-0">
     <div class="row pl-0 pr-0">
       <div class="col-6 col-xs-12 pl-0 pr-0">
         <h2 class="display-4"><?php the_sub_field('project_one_number'); ?></h2>
@@ -16,6 +15,5 @@
       </div>
 
     </div>
-  </div>
   <!-- End Bootstrap -->
 </section>

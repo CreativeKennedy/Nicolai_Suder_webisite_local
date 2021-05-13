@@ -1,9 +1,9 @@
 
-<section>
+<section class="container-fluid d-flex flex-column text-center justify-content-center " style="background-position: center; background-size:cover; height:75vh; background-image:url('<?php the_sub_field('hero_image'); ?>'); ">
+
 
 <!-- bootstrap -->
 
-<div class="container-fluid d-flex flex-column text-center justify-content-center " style="background-position: center; background-size:cover; height:75vh; background-image:url('<?php the_sub_field('hero_image'); ?>'); ">
 
   <div class="row  align-items-center">
     <div class="col">
@@ -18,7 +18,6 @@
 
     </div>
   </div>
-</div>
 
 <section>
 
