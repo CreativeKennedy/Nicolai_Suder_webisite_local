@@ -1,7 +1,21 @@
-.carousel-control-prev {
-  margin-left: -100px;
+/* control image height */
+.card-img-top-250 {
+  max-height: 250px;
+  overflow: hidden;
 }
 
-.carousel-control-next {
-  margin-right: -100px;
+/* smoother transitions */
+.carousel-inner > .carousel-item.next.left,
+.carousel-inner > .carousel-item.prev.right {
+  transition: all 1s ease;
+}
+
+.img-thumbnail {
+  width: 72px !important;
+  height: 72px !important;
+}
+
+.icon-images {
+  width: 72px !important;
+  height: 72px !important;
 }

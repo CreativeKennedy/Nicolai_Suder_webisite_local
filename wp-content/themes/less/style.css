@@ -38,13 +38,9 @@ Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, 
 # Normalize
 --------------------------------------------------------------*/
 
-
-
 html {
   scroll-behavior: smooth;
 }
-
-
 
 body {
   margin: 0;
@@ -219,7 +215,12 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   clear: both;
   color: #24292e;
   font-weight: 600;
@@ -295,9 +296,10 @@ table {
 --------------------------------------------------------------*/
 header#masthead {
   margin-bottom: 0;
-  background-color: #563d7c ;
-  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
-  padding: .74rem 1rem;
+  background-color: #563d7c;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  padding: 0.74rem 1rem;
 }
 
 .navbar-brand > a {
@@ -309,7 +311,8 @@ header#masthead {
   font-weight: 700;
 }
 
-.navbar-brand > a:visited, .navbar-brand > a:hover {
+.navbar-brand > a:visited,
+.navbar-brand > a:hover {
   text-decoration: none;
 }
 
@@ -338,7 +341,7 @@ body:not(.theme-preset-active) #page-sub-header h1 {
   font-weight: 300;
 }
 body:not(.theme-preset-active) #page-sub-header p {
-color: #212529;
+  color: #212529;
 }
 a.page-scroller {
   color: #333;
@@ -349,7 +352,7 @@ a.page-scroller {
 
 @media screen and (min-width: 768px) {
   body:not(.theme-preset-active) #page-sub-header h1 {
-    font-size: 3.750rem;
+    font-size: 3.75rem;
   }
   body:not(.theme-preset-active) #page-sub-header {
     font-size: 1.25rem;
@@ -380,7 +383,11 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
 }
 
 body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover,
-body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a {
+body:not(.theme-preset-active)
+  #masthead
+  .navbar-nav
+  > li.current_page_item
+  > a {
   color: #fff;
   font-weight: 600;
   /*background: #f9f9f9;*/
@@ -413,12 +420,12 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a 
 }
 
 .dropdown-menu {
-  min-width: 12.500rem;
+  min-width: 12.5rem;
 }
 
 .dropdown .open .dropdown-menu {
   display: block;
-  left: 12.250em;
+  left: 12.25em;
   top: 0;
 }
 
@@ -445,7 +452,7 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a 
 @media screen and (max-width: 991px) {
   .navbar-nav .dropdown-menu {
     border: medium none;
-    margin-left: 1.250rem;
+    margin-left: 1.25rem;
     padding: 0;
   }
 
@@ -677,7 +684,7 @@ a img.aligncenter {
 }
 
 .sticky .entry-title::before {
-  content: '\f08d';
+  content: "\f08d";
   font-family: "Font Awesome\ 5 Free";
   font-size: 1.563rem;
   left: -2.5rem;
@@ -715,7 +722,9 @@ a img.aligncenter {
   margin-bottom: 4rem;
 }
 
-.posted-on, .byline, .comments-link {
+.posted-on,
+.byline,
+.comments-link {
   color: #9a9a9a;
 }
 
@@ -934,7 +943,8 @@ body:not(.theme-preset-active) footer#colophon {
   text-align: center;
 }
 
-.copyright a, footer#colophon a {
+.copyright a,
+footer#colophon a {
   color: inherit;
 }
 
@@ -998,3 +1008,7 @@ body:not(.theme-preset-active) footer#colophon {
     font-size: 75%;
   }
 }
+
+/*--------------------------------------------------------------
+## My style
+--------------------------------------------------------------*/
